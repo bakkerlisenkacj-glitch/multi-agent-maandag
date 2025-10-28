@@ -1,0 +1,13 @@
+{
+  "name": "maandag-multi-agent",
+  "version": "1.0.0",
+  "description": "Multi-agent workflow (OpenAI Agents SDK) voor Maandag.com",
+  "type": "module",
+  "scripts": {
+    "start": "tsx runWorkflow.ts"
+  },
+  "dependencies": {
+    "@openai/agents": "latest",
+    "zod": "^3.23.8"
+  }
+}
